@@ -41,6 +41,7 @@ jres:
 # The JavaOpts is last in order to allow any user-defined JAVA_OPTS to override contributions from earlier frameworks
 frameworks:
   - "JavaBuildpack::Framework::MultiBuildpack"
+  - "JavaBuildpack::Framework::GoogleORFramework"
   - "JavaBuildpack::Framework::AppDynamicsAgent"
   - "JavaBuildpack::Framework::AspectjWeaverAgent"
   - "JavaBuildpack::Framework::AzureApplicationInsightsAgent"

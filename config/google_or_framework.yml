@@ -1,0 +1,4 @@
+# Configuration for the Google OR framework
+---
+version: 7.6.7691
+repository_root: https://raw.githubusercontent.com/vdurbha/googe-or-buildpack-repo/master
