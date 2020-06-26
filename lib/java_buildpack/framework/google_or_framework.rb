@@ -10,6 +10,7 @@ module JavaBuildpack
 
     # Encapsulates the functionality for enabling zero-touch AppDynamics support.
     class GoogleORFramework < JavaBuildpack::Component::VersionedDependencyComponent
+      include JavaBuildpack::Util
 
       def initialize(context)
         super(context)
