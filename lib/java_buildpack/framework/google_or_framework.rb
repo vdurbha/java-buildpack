@@ -23,7 +23,8 @@ module JavaBuildpack
       end
 
       # (see JavaBuildpack::Component::BaseComponent#release)
-      def release@droplet.environment_variables
+      def release
+      @droplet.environment_variables
           .add_environment_variable('LD_LIBRARY_PATH',
                                     "$LD_LIBRARY_PATH:#{qualify_path(lib, @droplet.root)}")
           .add_environment_variable('GOOGLE_OR_HOME', @droplet.sandbox)
